@@ -70,5 +70,6 @@ The columns are:
 # CAVEATS
 
 - This is an LLM, it lies. It's hard to tell when it lies.  
-- The list of alternative species is far shorter than it should be; lots of missing species.
+- The list of alternative species is far shorter than it should be; lots of missing species. Sometimes it reports more, sometimes it reports fewer species when you rerun it.
+- Rerunning can be a good idea.
 - The model "claude-3-5-sonnet-20240620" is hard-coded, have not really evaluated others. Some preliminary tests with Opus led to mostly identical results.

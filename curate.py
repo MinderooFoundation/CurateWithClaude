@@ -84,7 +84,7 @@ if args.prompt:
 
 with open(args.output, 'w') as out:
     iterator = zip(*(iter(specs),) * 10)
-    if len(specs) < 10:
+    if len(specs) <= 10:
         iterator = [specs]
 
     for sliced_text in iterator:
