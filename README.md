@@ -44,11 +44,14 @@ A tsv of species sightings produced by the OceanOmics amplicon pipeline, example
 
 # Output
 
-A csv (produced by Claude so can be buggy!) that looks like this:
+A csv (produced by Claude so can be buggy!) that looks like this, I added the header manually:
 
+| Species | In area? | Where else? | Fun fact | Other species |
+| --- | --- | --- | --- | --- |
 | Upeneichthys lineatus | TRUE | NA | Known as the blue-lined goatfish, this species is endemic to southern Australia and an important catch in some local fisheries | NA |
 | Alburnus alburnus | FALSE | This freshwater fish species is native to Europe and western Asia | Commonly known as the bleak, it's an important bait fish in Europe | Nematalosa come, Nematalosa erebi, Hyperlophus vittatus, Spratelloides robustus, Sardinops sagax, Etrumeus teres, Engraulis australis |
-| --- | --- | --- | --- | --- |
+
+The raw output contains no header.
 
 Raw:
 
