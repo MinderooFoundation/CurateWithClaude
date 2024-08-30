@@ -73,3 +73,4 @@ The columns are:
 - The list of alternative species is far shorter than it should be; lots of missing species. Sometimes it reports more, sometimes it reports fewer species when you rerun it.
 - Rerunning can be a good idea.
 - The model "claude-3-5-sonnet-20240620" is hard-coded, have not really evaluated others. Some preliminary tests with Opus led to mostly identical results.
+- Sometimes what the API returns is truncated. The script tries to detect these cases and should print something like "Warning: Response for species a, b, c might be truncated", but there is no guarantee that this works currently.
