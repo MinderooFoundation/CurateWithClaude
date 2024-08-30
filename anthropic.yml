@@ -1,0 +1,8 @@
+name: anthropic
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - anthropic
+  - python-dotenv
