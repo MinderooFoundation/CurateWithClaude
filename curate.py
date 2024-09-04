@@ -92,4 +92,4 @@ with open(args.output, 'w') as out:
         returned_text = guided_species_evaluation(text, args.area, args, prompt_out)
         # extra linebreaks, remove
         returned_text = '\n'.join([x for x in returned_text.split('\n') if len(x) > 0])
-        out.write(returned_text)
+        out.write(returned_text + '\n')

@@ -74,3 +74,4 @@ The columns are:
 - Rerunning can be a good idea.
 - The model "claude-3-5-sonnet-20240620" is hard-coded, have not really evaluated others. Some preliminary tests with Opus led to mostly identical results.
 - Sometimes what the API returns is truncated. The script tries to detect these cases and should print something like "Warning: Response for species a, b, c might be truncated", but there is no guarantee that this works currently.
+- Once in a while, the csv line is broken. Here's an example: *"Vinciguerria lucetia",FALSE,"Found in tropical and subtropical waters of the Atlantic, Pacific, and Indian Oceans, but not typically near Australia","This species is a bioluminescent fish, often called the Panama lightfish",Vinciguerria nimbaria,Vinciguerria poweriae,Vinciguerria attenuata,Ichthyococcus ovatus,Pollichthys mauli"*. Can you see the missing " in front of Vinciguerria? That has to be added manually.
