@@ -40,7 +40,7 @@ Sheardichthys radiatus
 
 # Output
 
-A csv (produced by Claude so can be buggy!) that looks like this, I added the header manually:
+A csv that looks like this:
 
 | Species | In area? | Where else? | Fun fact | Other species |
 | --- | --- | --- | --- | --- |
@@ -57,6 +57,7 @@ Raw:
 ```
 
 The columns are:
+
 	1. The supplied species,
 	2. TRUE if Claude thinks it's in the area and FALSE if not,
 	3. If the species is not in the area, some explanation, otherwise NA
