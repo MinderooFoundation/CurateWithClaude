@@ -98,7 +98,7 @@ Here's a plot comparing Claude's TRUE/FALSE (TRUE = expected in the area, FALSE 
 
 ![image](https://github.com/user-attachments/assets/64568307-0862-4c40-a4a6-934e3f7eb244)
 
-As you can see, the average/median Aquamaps probability for sightings with which Claude disagrees is 0. The median for Claude's agreed-upon sightings is 0.76. You can see some 'leftovers' where Claude disagrees with Aquamaps. These are *Pseudophycis breviuscula*, *Repomucenus calcaratus*, *Zebrias scalaris*, *Anoplogaster cornuta*, *Parapriacanthus elongatus*, *Caprodon schlegelii*, and *Lampadena speculigera*. Some of these, like *Lampadena speculigera*, are deep sea fish, but these are not impossible species. I expect hta these species appear less frequently in Claude's training data. There's always room for improvement via fine-tuning!
+As you can see, the average/median Aquamaps probability for sightings with which Claude disagrees is 0. The median for Claude's agreed-upon sightings is 0.76. You can see some 'leftovers' where Claude disagrees with Aquamaps, i.e., Claude says FALSE but AquaMaps has a probability above 0.8. These are *Pseudophycis breviuscula*, *Repomucenus calcaratus*, *Zebrias scalaris*, *Anoplogaster cornuta*, *Parapriacanthus elongatus*, *Caprodon schlegelii*, and *Lampadena speculigera*. Some of these, like *Lampadena speculigera*, are deep sea fish, but these are not impossible species. I expect hta these species appear less frequently in Claude's training data. There's always room for improvement via fine-tuning!
 
 We can also look at this from a higher level - we asked Fishbase whether these species are endemic/native or not to Australia (not just South-Western Australia).
 
