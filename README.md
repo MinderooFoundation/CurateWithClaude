@@ -66,6 +66,7 @@ The columns are:
 
 There is example output in `claude_commented.csv`.
 
+Species identified by Claude to not be from the area have their close relatives listed - from there we go and check whether they are in the reference database we use (they are usually not).
 
 # Installation
 
@@ -98,7 +99,7 @@ Here's a plot comparing Claude's TRUE/FALSE (TRUE = expected in the area, FALSE 
 
 ![image](https://github.com/user-attachments/assets/64568307-0862-4c40-a4a6-934e3f7eb244)
 
-As you can see, the average/median Aquamaps probability for sightings with which Claude disagrees is 0. The median for Claude's agreed-upon sightings is 0.76. You can see some 'leftovers' where Claude disagrees with Aquamaps, i.e., Claude says FALSE but AquaMaps has a probability above 0.8. These are *Pseudophycis breviuscula*, *Repomucenus calcaratus*, *Zebrias scalaris*, *Anoplogaster cornuta*, *Parapriacanthus elongatus*, *Caprodon schlegelii*, and *Lampadena speculigera*. Some of these, like *Lampadena speculigera*, are deep sea fish, but these are not impossible species. I expect hta these species appear less frequently in Claude's training data. There's always room for improvement via fine-tuning!
+As you can see, the average/median Aquamaps probability for sightings for which Claude says they are unlikely is 0, not likely for this area. The median for Claude's agreed-upon sightings for 16S is 0.76. You can see some 'leftovers' where Claude disagrees with Aquamaps, i.e., Claude says FALSE but AquaMaps has a probability above 0.8. These are *Pseudophycis breviuscula*, *Repomucenus calcaratus*, *Zebrias scalaris*, *Anoplogaster cornuta*, *Parapriacanthus elongatus*, *Caprodon schlegelii*, and *Lampadena speculigera*. Some of these, like *Lampadena speculigera*, are deep sea fish, but these are not impossible species. I expect that these species appear less frequently in Claude's training data. There's always room for improvement via fine-tuning!
 
 We can also look at this from a higher level - we asked Fishbase whether these species are endemic/native or not to Australia (not just South-Western Australia).
 
@@ -106,7 +107,7 @@ We can also look at this from a higher level - we asked Fishbase whether these s
 
 As you can see, 66% and 64% of the non-endemic species in 12S and 16S are labeled as FALSE by Claude. About 22% of endemic species are labeled as FALSE by Claude, but Claude evaluates on the area (South-Western Western Australia), not all of Australia. 
 
-So far it has a 100% success rate with finding *very* wrong species, i.e., European freshwater fish in Australian marine samples.
+So far it has a 100% success rate with finding *very* wrong species, i.e., European freshwater fish in Australian marine samples. But you don't need 500 GPUs and Liechtenstein's energy consumption to tell you that.
 
 # CAVEATS
 
