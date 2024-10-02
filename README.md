@@ -6,13 +6,13 @@ This script takes a file with species-level sightings as produced by the OceanOm
 
 This script depends on a fairly recent Python and the anthropic Python package.
 
-There's a prepared conda environment:
+There's a prepared conda environment in `anthropic.yml` that you can use to get conda to install everything:
 
 ```bash
 conda env create -f anthropic.yml
 ```
 
-IMPORTANT: You need a .env file in the working directory with your Anthropic API key. It should look like this:
+You need a .env file in the working directory with your Anthropic API key. It should look like this:
 
 ```bash
 ANTHROPIC_API_KEY=blablabla
@@ -34,13 +34,25 @@ python curate.py -i asv_final_taxa_filtered.tsv \
 
 # Input
 
-A tsv of species sightings produced by the OceanOmics amplicon pipeline, example in `asv_final_taxa_filtered.tsv`
+The input is a flat text file of species names (or family names or whatever taxonomic unit).
+
+Looks like this, the example is in `for_claude.txt`:
 
 ```
-"ASV"   "domain"        "phylum"        "class" "order" "family"        "genus" "species"       "LCA"   "numberOfUnq_BlastHits" "X.ID"  "Gene"  "Genus.prediction"        "Genus.score"   "Species.prediction"    "Species.score" "ASV_sequence"
-"1"     "ASV_10"        "Eukaryota"     "Chordata"      "Actinopteri"   "Syngnathiformes"       "Mullidae"      "Upeneichthys"  "Upeneichthys lineatus"   "Upeneichthys lineatus" 1461    98.824  NA      NA      NA      NA      NA      "TTCCCTAGCTTTCGTGGGTTCGGGATAAGTAAAGCCACTTTCGTGGTGGGGCTTCATATCTTCGAGAACGTATAACAGCTTTGAAGACGTTCGGCTTTACTAGAATAATACTCCGTAACCACCCTTTACGCCGGTGCCTATCAACTTGGGCCCCTCGTATAACCGCGGTG"
-"2"     "ASV_11"        "Eukaryota"     "Chordata"      "Actinopteri"   "Cypriniformes" "Cyprinidae"    "Alburnus"      "Alburnus alburnus"     "Alburnus alburnus"       1461    98.824  NA      NA      NA      NA      NA      "TTCCCTAGCTTTCGTGGGTTCGGGATAAGTAAAGCCACTTTCGTGGTGGGGCTTCATATCTTCGAGAACGTATAACAGCTTTGAAGACGTTCGGCTTTACTAGAATAATACTCCGTAACCACCCTTTACGCCGGTGCCTATCAACTTGGGCCCCTCGTATAACCGCGGTG"
+Upeneichthys lineatus
+Trachinops noarlungae
+Parapercis ramsayi
+Bathytoshia brevicaudata
+Heteroscarus acroptilus
+Olisthops cyanomelas
+Leviprora inops
+Sphyraena novaehollandiae
+Lophonectes gallus
+Gymnothorax prasinus
+Siphonognathus argyrophanes
+Sheardichthys radiatus
 ```
+
 
 # Output
 
@@ -67,11 +79,20 @@ The columns are:
 	4. A 'fun fact' about the species 
 	5. if the species is not in the area, a list of alternative closely related species that could be, otherwise NA
 
+There is example output in `claude_commented.csv`.
+
+# API usage
+
+The example file contains 224 unique species.
+
+According to the Anthropic log, a run of the curate.py script uses 12,918 input tokens and 8,939 output tokens. At the time of this writing that cost US $0.17.
+
 # CAVEATS
 
 - This is an LLM, it lies. It's hard to tell when it lies.  
 - The list of alternative species is far shorter than it should be; lots of missing species. Sometimes it reports more, sometimes it reports fewer species when you rerun it.
-- Rerunning can be a good idea.
+- Rerunning can be a good idea - answers are somewhat random.
 - The model "claude-3-5-sonnet-20240620" is hard-coded, have not really evaluated others. Some preliminary tests with Opus led to mostly identical results.
-- Sometimes what the API returns is truncated. The script tries to detect these cases and should print something like "Warning: Response for species a, b, c might be truncated", but there is no guarantee that this works currently.
+- Sometimes what the API returns is truncated. The script tries to detect these cases and should print something like "Warning: Response for species a, b, c might be truncated", but there is no guarantee that this works correctly.
 - Once in a while, the csv line is broken. Here's an example: *"Vinciguerria lucetia",FALSE,"Found in tropical and subtropical waters of the Atlantic, Pacific, and Indian Oceans, but not typically near Australia","This species is a bioluminescent fish, often called the Panama lightfish",Vinciguerria nimbaria,Vinciguerria poweriae,Vinciguerria attenuata,Ichthyococcus ovatus,Pollichthys mauli"*. Can you see the missing " in front of Vinciguerria? That has to be added manually.
+- Very little work has gone into optimising token usage. There is no prompt caching.

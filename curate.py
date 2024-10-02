@@ -16,7 +16,7 @@ client = anthropic.Anthropic()
 system_message = f"""You are an expert in marine species distributions. You're the world's best. You're so accurate. wow.
 Please evaluate the following list of species sightings for accuracy. These were all spotted in {area} in a marine environment using DNA sequencing of water samples. Do these species usually occur in this environment?
 In the first column, list the species.
-In the second column, list whether this species is commonly found in {area} using a TRUE or a FALSE when it's not found.
+In the second column, list whether this species is commonly found in {area} using a TRUE or a FALSE when it's not found. Use NA when you are not sure.
 In the third column, in cases when this species is not found in {area}, describe where else it appears. If the species is OK, use NA.
 Note anything of interest in the fourth column that a human reader might find interesting. Don't focus only on common names; note cultural interest, threatened status, venomous nature, or anything else fun or interesting.
 In a fifth column, for species that don't occur in the sampled environment, note all other closely related species (same genus or family based on DNA) which may be in the area. List them all, even if there are hundreds.
@@ -68,10 +68,7 @@ def guided_species_evaluation(text, area, args, prompt_out, model="claude-3-5-so
 specs = list()
 with open(args.input) as fh:
     for line in fh:
-        ll = line.split('\t')
-        spec = ll[8].replace('"', '')
-        if spec == 'dropped' or spec == "NA" or spec == '' or spec == 'LCA':
-            continue
+        spec = line.strip()
         if spec not in specs:
             specs.append(spec)
 

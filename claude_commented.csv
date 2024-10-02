@@ -1,0 +1,220 @@
+"Upeneichthys lineatus",TRUE,NA,"Also known as the bluestriped goatfish, it's an important commercial and recreational fishing species",NA
+"Trachinops noarlungae",TRUE,NA,"Endemic to southern Australia, this hulafish species is known for its vibrant coloration",NA
+"Parapercis ramsayi",TRUE,NA,"Commonly called the spotted grubfish, it's a bottom-dwelling species",NA
+"Bathytoshia brevicaudata",TRUE,NA,"Known as the smooth stingray, it's one of the largest stingray species in the world",NA
+"Heteroscarus acroptilus",TRUE,NA,"This wrasse species is endemic to southern Australia and is also called the rainbow cale",NA
+"Olisthops cyanomelas",TRUE,NA,"Known as the herring cale, this fish changes color as it matures",NA
+"Leviprora inops",TRUE,NA,"This flathead species is also called the longspine flathead and is endemic to Australia",NA
+"Sphyraena novaehollandiae",TRUE,NA,"Commonly known as the Australian barracuda, it's a popular target for recreational fishers",NA
+"Lophonectes gallus",TRUE,NA,"This flatfish species is also called the crested flounder due to its distinctive dorsal fin",NA
+"Gymnothorax prasinus",TRUE,NA,"Known as the green moray, this eel species is relatively common in southern Australian waters",NA
+"Siphonognathus argyrophanes",TRUE,NA,"A species of weed whiting endemic to southern Australia",NA
+"Sheardichthys radiatus",TRUE,NA,"Also known as the glassfish, it's endemic to southern Australia",NA
+"Sillago bassensis",TRUE,NA,"Known as the southern school whiting, important for recreational fishing",NA
+"Sillago ingenuua",FALSE,"This species is found in the waters of northern Australia and Papua New Guinea","Likely a misspelling of Sillago ingenuua","Sillago schomburgkii, Sillago vittata, Sillago burrus"
+"Hippocampus hippocampus",FALSE,"This seahorse species is native to the northeastern Atlantic Ocean and the Mediterranean Sea","Also known as the short-snouted seahorse","Hippocampus breviceps, Hippocampus subelongatus, Hippocampus angustus"
+"Meuschenia hippocrepis",TRUE,NA,"Known as the horseshoe leatherjacket, endemic to southern Australia",NA
+"Pempheris klunzingeri",TRUE,NA,"Known as the rough bullseye, found in southern Australian waters",NA
+"Phycodurus eques",TRUE,NA,"The leafy seadragon, an iconic species endemic to southern and eastern Australian waters",NA
+"Heteroclinus nasutus",TRUE,NA,"Known as the large-nose weedfish, found in southern Australian waters",NA
+"Hypoplectrodes nigroruber",TRUE,NA,"Known as the black-banded seaperch, found in southern Australian waters",NA
+"Mola mola",TRUE,NA,"Ocean sunfish, largest bony fish, can weigh up to 2,000 kg",NA
+"Callogobius hasseltii",TRUE,NA,"Small goby found in coral reefs and rocky areas",NA
+"Upeneichthys stotti",TRUE,NA,"Endemic to southern Australia, a type of goatfish",NA
+"Pseudophycis breviuscula",FALSE,"Found in New Zealand waters","False cod or bastard red cod","Pseudophycis barbata, Lotella rhacina"
+"Nemadactylus valenciennesi",TRUE,NA,"Known as blue morwong or queen snapper, important recreational fishing species",NA
+"Platycephalus grandispinis",TRUE,NA,"Large-spined flathead, endemic to southern Australia",NA
+"Arripis georgianus",TRUE,NA,"Australian herring or tommy ruff, important for commercial and recreational fishing",NA
+"Polyspina piosae",FALSE,"Found in the Mediterranean Sea","Recently described species (2012) of clingfish","Aspasmogaster costata, Cochleoceps spatula, Gobiesox fimbriatus"
+"Coris sandeyeri",FALSE,"Found in New Zealand waters","Sandager's wrasse","Coris auricularis, Ophthalmolepis lineolata, Notolabrus parilus"
+"Haletta semifasciata",TRUE,NA,"Blue weed whiting, found in seagrass beds and reef areas",NA
+"Bodianus frenchii",TRUE,NA,"Known as the foxfish, endemic to southern Australia. Popular for recreational fishing.",NA
+"Heteroclinus roseus",TRUE,NA,"A species of weedfish, often found in shallow reef areas.",NA
+"Achoerodus viridis",FALSE,"Found on the east coast of Australia, not typically in Western Australia","Known as the eastern blue groper, it's the official fish emblem of New South Wales","Achoerodus gouldii (western blue groper) is found in Western Australia"
+"Pempheris japonica",FALSE,"Native to waters around Japan and Korea","A species of sweeper fish","Pempheris klunzingeri, Pempheris multiradiata"
+"Lutjanus sebae",TRUE,NA,"Known as the red emperor, highly valued for its eating qualities",NA
+"Hypoplectrodes maccullochi",TRUE,NA,"A species of seaperch, endemic to Australia",NA
+"Austrolabrus maculatus",TRUE,NA,"Known as the blackspotted wrasse, endemic to southern Australia",NA
+"Lepidotrigla papilio",TRUE,NA,"A species of gurnard fish, known for its 'walking' behavior using its pectoral fins",NA
+"Maxillicosta whitleyi",TRUE,NA,"A species of scorpionfish, endemic to Australia",NA
+"Omegophora armilla",TRUE,NA,"Known as the ringed toadfish, it's highly poisonous if consumed",NA
+"Parequula melbournensis",TRUE,NA,"Endemic to southern Australia, known as the Melbourne silverbelly",NA
+"Hoplostethus atlanticus",TRUE,NA,"Orange roughy, a deep-sea fish with extreme longevity (up to 250 years)",NA
+"Eupetrichthys angustipes",TRUE,NA,"Rainbow cale, a colorful wrasse species endemic to southern Australia",NA
+"Brachaluteres jacksonianus",TRUE,NA,"Pygmy leatherjacket, a small filefish species",NA
+"Spratelloides robustus",TRUE,NA,"Blue sprat, an important bait fish in the region",NA
+"Hyporthodus griseofasciatus",FALSE,"Typically found in the northwestern Pacific Ocean","Banded grouper, considered vulnerable by IUCN","Hyporthodus octofasciatus, Epinephelus daemelii"
+"Atypichthys strigatus",TRUE,NA,"Mado, a small fish often found in large schools",NA
+"Mugil cephalus",TRUE,NA,"Flathead grey mullet, a cosmopolitan species of significant commercial importance",NA
+"Scolecenchelys gymnota",TRUE,NA,"Slender worm eel, a cryptic species often found buried in sand",NA
+"Batrachomoeus trispinosus",TRUE,NA,"Three-spined frogfish, known for its venomous spines",NA
+"Tilodon sexfasciatus",TRUE,NA,"Known as the moonlighter fish, endemic to southern Australia",NA
+"Alburnus alburnus",FALSE,"Native to Europe and western Asia","Common bleak, a freshwater fish not found in marine environments","Nematalosa come, Nematalosa erebi"
+"Repomucenus calcaratus",FALSE,"Found in the northwestern Pacific Ocean","A species of dragonet","Callionymus goodladi, Synchiropus calauropomus"
+"Torquigener pleurogramma",TRUE,NA,"Weeping toadfish, can be toxic if consumed",NA
+"Zebrias scalaris",FALSE,"Found in the western Pacific, from Japan to Indonesia","A species of sole fish","Zebrias cancellatus, Pardachirus pavoninus"
+"Alionematichthys riukiuensis",FALSE,"Native to Japan and Taiwan","A small clingfish species","Alabes hoesei, Diademichthys lineatus"
+"Anoplocapros lenticularis",TRUE,NA,"White-barred boxfish, endemic to southern Australia",NA
+"Diodon nicthemerus",TRUE,NA,"Globe fish or porcupine fish, can inflate its body when threatened",NA
+"Scorpaena papillosa",TRUE,NA,"Red rock cod, venomous spines require caution",NA
+"Caprichthys gymnura",TRUE,NA,"Unarmed boxfish, endemic to southwestern Australia",NA
+"Sphyraena japonica",FALSE,"Found in the northwestern Pacific, particularly around Japan and Korea","A species of barracuda, known for its elongated body and sharp teeth","Sphyraena novaehollandiae, Sphyraena obtusata"
+"Liocranium praepositum",TRUE,NA,"A species of waspfish, known for its venomous spines",NA
+"Notolabrus parilus",TRUE,NA,"Known as the brown-spotted wrasse, endemic to southern Australia",NA
+"Anoplogaster cornuta",FALSE,"Deep-sea species found in all oceans, but rare in coastal areas","Known as the fangtooth, it has the largest teeth proportional to body size of any fish","Lowsetta muelleri, Neosebaste scorpaenoides"
+"Hyporhamphus melanochir",TRUE,NA,"Southern sea garfish, important for both commercial and recreational fishing in Australia",NA
+"Enoplosus armatus",TRUE,NA,"Known as Old Wife or Zebra Fish, endemic to southern Australia",NA
+"Rhynchopelates oxyrhynchus",FALSE,"Found in the Indo-Pacific region, particularly around Indonesia and Philippines","A species of grunter, known for its ability to produce sounds","Pelates quadrilineatus, Terapon jarbua"
+"Polyprion oxygeneios",TRUE,NA,"Hapuku or Bass groper, a deep-water species prized for its flesh",NA
+"Chironemus maculosus",TRUE,NA,"Known as the kelpfish, found in rocky reefs and kelp beds",NA
+"Anarchias seychellensis",FALSE,"Found in the western Indian Ocean, particularly around Seychelles","A species of moray eel, typically found in coral reefs","Anarchias leucurus, Gymnothorax woodwardi, Gymnothorax prasinus"
+"Plectroglyphidodon insularis",FALSE,"Typically found in tropical Indo-Pacific regions, not common in temperate SW Western Australia","Known as the jeweled damselfish, associated with coral reefs","Parma mccullochi, Parma occidentalis, Parma victoriae"
+"Dinolestes lewini",TRUE,NA,"Known as the long-finned pike, an important recreational fishing species",NA
+"Ophthalmolepis lineolata",TRUE,NA,"Rainbow cale, a colorful wrasse species endemic to southern Australia",NA
+"Plectorhinchus flavomaculatus",FALSE,"Usually found in tropical Indo-Pacific waters, not common in temperate SW Western Australia","Known as the lemonfish or gold-spotted sweetlips","Plectorhinchus pictus, Diagramma labiosum"
+"Lotella rhacina",TRUE,NA,"Beardie or large-scaled cod, a deep-water species",NA
+"Aspasmogaster costata",TRUE,NA,"Cling goby, an endemic Australian species that can breathe air",NA
+"Cristiceps australis",TRUE,NA,"Southern crested weedfish, known for its elaborate courtship displays",NA
+"Dactylophora nigricans",TRUE,NA,"Dusky morwong, can change color rapidly for camouflage",NA
+"Chelmonops truncatus",TRUE,NA,"Western talma, endemic to southern Australia and known for its distinctive shape",NA
+"Pseudocalliurichthys variegatus",FALSE,"Found in the northwestern Pacific, not in SW Western Australia","A species of dragonet fish","Synchiropus picturatus, Callionymus goodladi, Eocallionymus papilio"
+"Maxillicosta scabriceps",TRUE,NA,"A small scorpionfish species endemic to southern Australia",NA
+"Dunckerocampus dactyliophorus",FALSE,"Typically found in tropical Indo-Pacific regions, not in temperate South-Western Australia","Also known as the banded pipefish, it has a unique ringed pattern","Phyllopteryx taeniolatus, Hippocampus subelongatus, Stigmatopora argus"
+"Alepes apercna",FALSE,"Found in tropical waters of northern Australia and Indo-Pacific","A type of scad or horse mackerel","Pseudocaranx dentex, Trachurus novaezelandiae, Decapterus russelli"
+"Pentaceropsis recurvirostris",TRUE,NA,"Known as the longsnout boarfish, it has a distinctive elongated snout",NA
+"Kyphosus sydneyanus",TRUE,NA,"Called the silver drummer, it's important in recreational fishing",NA
+"Oplegnathus woodwardi",TRUE,NA,"The knifejaw is known for its sharp, beak-like mouth",NA
+"Centroberyx lineatus",TRUE,NA,"The swallowtail is a commercially important species in Australia",NA
+"Aseraggodes cheni",FALSE,"This sole species is typically found in the waters around Taiwan","Named after Chinese ichthyologist Chen Ching-Tsung","Aseraggodes haackeanus, Synclidopus macleayanus, Pardachirus pavoninus"
+"Eubalichthys quadrispinis",TRUE,NA,"A leatherjacket species with four prominent spines on its back",NA
+"Girella zebra",TRUE,NA,"Known as the zebrafish, it has distinctive dark vertical bands on its body",NA
+"Nelusetta ayraudi",TRUE,NA,"Also known as the ocean leather jacket or chinaman leatherjacket, this species is common in southern Australian waters",NA
+"Rhycherus filamentosus",TRUE,NA,"Also called the tasselled anglerfish, this species is endemic to southern Australia",NA
+"Acanthaluteres brownii",TRUE,NA,"Known as the spiny-tailed leatherjacket, this species is found in southern Australian waters",NA
+"Acanthistius ocellatus",TRUE,NA,"Commonly called the eastern wirrah, this species is found in temperate Australian waters",NA
+"Balaenoptera musculus",TRUE,NA,"The blue whale, the largest animal known to have ever existed, occasionally visits the waters off south-western Australia",NA
+"Leptatherina presbyteroides",TRUE,NA,"Known as the silver fish or presbyter's hardyhead, this species is found in coastal waters of southern Australia",NA
+"Latropiscis purpurissatus",TRUE,NA,"Also called the sergeant baker or red cod, this species is found in temperate Australian waters",NA
+"Halichoeres papilionaceus",FALSE,"This species is found in the western Pacific, from Japan to Indonesia","A colorful wrasse species","Halichoeres brownfieldi, Halichoeres nebulosus, Halichoeres margaritaceus"
+"Paraplagusia blochii",TRUE,NA,"Known as the large-scaled tongue sole, this flatfish is found in Australian waters",NA
+"Aplodactylus arctidens",TRUE,NA,"Commonly called the marblefish or sea carp, this species is found in temperate Australian waters",NA
+"Conger japonicus",FALSE,"Typically found in waters around Japan and Korea","A species of conger eel","Conger wilsoni, Conger verreauxi"
+"Squalius cephalus",FALSE,"Freshwater species native to Europe and Asia","Also known as the European chub","No closely related species in marine SW Western Australia"
+"Kyphosus cornelii",TRUE,NA,"Endemic to southern Australia, known as the western buffalo bream",NA
+"Spratelloides gracilis",TRUE,NA,"Silver sprat, important prey species for larger fish",NA
+"Gonorynchus greyi",TRUE,NA,"Known as the beaked salmon, has an unusual pointed snout",NA
+"Platycephalus speculator",TRUE,NA,"Southern blue-spotted flathead, popular for recreational fishing",NA
+"Pseudorca crassidens",TRUE,NA,"False killer whale, known for mass strandings","Globicephala melas, Orcinus orca"
+"Halichoeres argus",FALSE,"Found in the western Pacific, particularly around Japan and Taiwan","Peacock wrasse, known for its colorful patterns","Halichoeres brownfieldi, Coris auricularis"
+"Callanthias japonicus",FALSE,"Native to northwestern Pacific, particularly Japan","Japanese splendid perch","Callanthias allporti, Callanthias australis"
+"Lotella tosaensis",FALSE,"Found in waters around Japan and Taiwan","A species of cod","Lotella rhacina, Physiculus roseus"
+"Platycephalus aurimaculatus",TRUE,NA,"Known as the Toothy Flathead, endemic to southern Australia",NA
+"Callionymus simplicicornis",FALSE,"Found in northwestern Pacific near Japan and Taiwan","A species of dragonet","Callionymus goodladi, Foetorepus calauropomus, Synchiropus papilio"
+"Scorpaena pepo",FALSE,"Native to the eastern Pacific from California to Peru","Known as the Smooth Sculpin, venomous","Scorpaena sumptuosa, Maxillicosta scabriceps, Neosebastes pandus"
+"Gnathophis longicauda",TRUE,NA,"A conger eel species, can grow up to 60 cm in length",NA
+"Raneya brasiliensis",FALSE,"Found in the southwestern Atlantic off Brazil and Argentina","A cusk-eel species, rarely encountered","Dinematichthys riukiuensis, Fiordichthys slartibartfasti"
+"Sillaginodes punctatus",TRUE,NA,"Known as King George whiting, important recreational and commercial fish",NA
+"Brachionichthys hirsutus",FALSE,"Endemic to southeastern Tasmania","Critically endangered species, known as Spotted Handfish","Sympterichthys unipennis, Brachionichthys australis"
+"Foetorepus calauropomus",TRUE,NA,"A species of dragonet, known for its elaborate courtship displays",NA
+"Scomberesox saurus",TRUE,NA,"Known as saury or skipper, can perform short glides above water",NA
+"Trimma benjamini",FALSE,"Found in the western Pacific, particularly around Indonesia and Philippines","A tiny goby species, often found in coral reefs","Eviota bimaculata, Trimma taylori, Tridentiger trigonocephalus"
+"Colistium nudipinnis",FALSE,"Found in New Zealand waters, not in Western Australia","A type of righteye flounder","Ammotretis elongatus, Ammotretis rostratus, Peltorhamphus novaezeelandiae"
+"Phyllopteryx taeniolatus",TRUE,NA,"Known as the common seadragon, endemic to southern Australian waters and the state marine emblem of Victoria",NA
+"Sphyrna zygaena",TRUE,NA,"Smooth hammerhead shark, listed as Vulnerable by IUCN",NA
+"Neosebastes bougainvillii",TRUE,NA,"Roughy scorpionfish, can inflict painful stings",NA
+"Neosebastes pandus",TRUE,NA,"Bighead gurnard perch, common in southern Australian waters",NA
+"Scomberomorus queenslandicus",FALSE,"Typically found in northern and eastern Australian waters","School mackerel, important for commercial and recreational fishing","Scomberomorus maculatus, Scomberomorus commerson"
+"Myliobatis tenuicaudatus",FALSE,"Found in New Zealand waters, not typically in Western Australia","New Zealand eagle ray","Myliobatis australis"
+"Trygonoptera imitata",TRUE,NA,"Eastern shovelnose stingaree, endemic to Australia",NA
+"Spratelloides delicatulus",TRUE,NA,"Blue sprat, important prey species for larger fish",NA
+"Parascyllium ferrugineum",TRUE,NA,"Rusty carpetshark, endemic to Australia and relatively uncommon",NA
+"Furgaleus macki",TRUE,NA,"Also known as whiskery shark, endemic to southern Australia",NA
+"Mola tecta",FALSE,"Primarily found in temperate waters of the Southern Hemisphere, but not typically in coastal Western Australia","Rare species of ocean sunfish, only scientifically described in 2017","Mola mola, Mola alexandrini"
+"Parapriacanthus ransonneti",FALSE,"Typically found in the Indo-Pacific region, not common in southwestern Australia","Known as pigmy sweeper, forms large schools in coral reefs","Pempheris klunzingeri, Pempheris multiradiata"
+"Metavelifer multiradiatus",TRUE,NA,"Rare deepwater fish, also called spinyfin or veilfin",NA
+"Neophoca cinerea",TRUE,NA,"Australian sea lion, endangered species endemic to southern Australia",NA
+"Urolophus lobatus",TRUE,NA,"Lobed stingaree, endemic to southwestern Australia",NA
+"Carcharodon carcharias",TRUE,NA,"Great white shark, protected species, important in Aboriginal Dreamtime stories",NA
+"Lethrinus laticaudis",FALSE,"Found in northern Australia, not typically in southwestern waters","Grass emperor fish, important for recreational fishing","Lethrinus nebulosus, Lethrinus miniatus"
+"Hipposcarus longiceps",FALSE,"Typically found in the Indo-Pacific, not common in southwestern Australia","Pacific longnose parrotfish, important for coral reef ecosystems","Scarus ghobban, Chlorurus sordidus"
+"Megaptera novaeangliae",TRUE,NA,"Humpback whale, migrates along Western Australian coast, culturally significant in whale watching tourism",NA
+"Tetrosomus concatenatus",TRUE,NA,"Also known as the box cowfish, it has a unique box-shaped body with hexagonal scales",NA
+"Sarda orientalis",TRUE,NA,"The striped bonito, an important commercial and game fish",NA
+"Pictilabrus laticlavius",TRUE,NA,"The senator wrasse, known for its striking coloration and sexual dimorphism",NA
+"Taeniamia macroptera",FALSE,"More common in tropical waters of northern Australia","A type of cardinalfish, known for oral egg brooding","Taeniamia fucata, Taeniamia lineolata"
+"Vincentia conspersa",TRUE,NA,"The southern cardinal fish, endemic to southern Australia",NA
+"Parapriacanthus elongatus",FALSE,"Typically found in tropical Indo-Pacific waters","A type of sweeper fish, known for its large eyes","Pempheris klunzingeri, Pempheris multiradiata"
+"Pseudolabrus biserialis",TRUE,NA,"The redband wrasse, endemic to southern Australia",NA
+"Bolbometopon muricatum",FALSE,"Mainly found in tropical coral reefs","The green humphead parrotfish, largest of all parrotfish and vulnerable to extinction","Scarus ghobban, Chlorurus sordidus"
+"Hoplostethus gigas",TRUE,NA,"The giant slimehead, a deep-sea fish found in southern Australian waters",NA
+"Grammatorcynus bicarinatus",TRUE,NA,"The shark mackerel, known for its elongated body and sharp teeth",NA
+"Lepidotrigla spinosa",TRUE,NA,"A species of gurnard fish, known for its spiny scales and ability to 'walk' on the seafloor using its pectoral fins",NA
+"Seriola hippos",TRUE,NA,"Also known as the samson fish, it's a large predatory species important for recreational fishing",NA
+"Atherinason hepsetoides",TRUE,NA,"A small silverside fish, often found in large schools in coastal waters",NA
+"Gnathanacanthus goetzeei",TRUE,NA,"Known as the red velvetfish, this rare species is endemic to southern Australia and has a distinctive velvety appearance",NA
+"Diaphus phillipsi",FALSE,"This lanternfish species is typically found in deeper waters of the eastern Indian Ocean and western Pacific","Lanternfish are known for their bioluminescent organs","Diaphus brachycephalus, Diaphus hudsoni, Diaphus meadi"
+"Pseudocaranx dentex",TRUE,NA,"Also called silver trevally, it's a popular target for recreational anglers",NA
+"Parequula elongata",TRUE,NA,"A species of longfin, this fish has an elongated body shape compared to other members of its family",NA
+"Lagocephalus sceleratus",TRUE,NA,"Highly toxic pufferfish, considered one of the most dangerous fish in the sea due to its tetrodotoxin",NA
+"Heteroclinus adelaidae",TRUE,NA,"A species of weedfish, named after the city of Adelaide. These fish are masters of camouflage in seaweed habitats",NA
+"Etrumeus teres",FALSE,"This round herring species is found in the Atlantic Ocean and Mediterranean Sea","Often confused with other round herring species","Etrumeus jacksoniensis, Etrumeus teres"
+"Caesioperca lepidoptera",TRUE,NA,"Known as butterfly perch, found in southern Australian waters",NA
+"Encrasicholina punctifer",FALSE,"Typically found in tropical Indo-Pacific waters","Small anchovy species important for commercial fisheries","Engraulis australis"
+"Parapercis haackei",TRUE,NA,"Known as wavy grubfish, endemic to southern Australia",NA
+"Chironemus georgianus",TRUE,NA,"Known as tasseled morwong, endemic to southern Australia",NA
+"Maroubra perserrata",TRUE,NA,"Known as sawtooth perchlet, endemic to southern Australia",NA
+"Allomycterus pilatus",TRUE,NA,"Known as Australian burrfish, found in southern Australian waters",NA
+"Glaucosoma hebraicum",TRUE,NA,"Known as West Australian dhufish, important for commercial and recreational fishing",NA
+"Eubalichthys gunnii",TRUE,NA,"Known as Gunn's leatherjacket, endemic to southern Australia",NA
+"Scortum barcoo",FALSE,"Freshwater species found in inland Australia","Known as Barcoo grunter, important for aquaculture","Arripis georgianus, Arripis truttaceus"
+"Halichoeres brownfieldi",TRUE,NA,"Known as Brownfield's wrasse, endemic to southern Australia",NA
+"Diancistrus typhlops",FALSE,"This species is found in the Pacific Ocean near New Caledonia","A rare cusk eel species that lives in deep waters","Diancistrus longifilis, Diancistrus springeri"
+"Urolophus cruciatus",FALSE,"This species is endemic to southeastern Australia","Known as the banded stingaree, it has a distinctive cross-shaped marking","Urolophus circularis, Urolophus lobatus, Urolophus paucimaculatus"
+"Decapterus muroadsi",TRUE,NA,"Also known as the amberstripe scad, it's an important commercial fish species",NA
+"Stipecampus cristatus",TRUE,NA,"Known as the ring-backed pipefish, it has a unique body shape with rings",NA
+"Heteroclinus whiteleggii",FALSE,"This species is found in southeastern Australia","A type of weedfish, named after Australian zoologist Thomas Whitelegge","Heteroclinus Adelaide, Heteroclinus perspicillatus, Heteroclinus roseus"
+"Glyptauchen panduratus",TRUE,NA,"Known as the goblinfish, it has a very distinctive appearance with a large head and spines",NA
+"Pisodonophis cancrivorus",FALSE,"This species is found in the Indo-Pacific region, but not typically in southwestern Australia","Known as the longfin snake eel, it preys on crustaceans","Ophisurus serpens, Leiuranus semicinctus"
+"Heteroclinus johnstoni",TRUE,NA,"A species of weedfish named after Australian ichthyologist George Johnston",NA
+"Pseudorhombus jenynsii",TRUE,NA,"Known as the smalltooth flounder, it's a commercially important flatfish species",NA
+"Eubalichthys bucephalus",TRUE,NA,"Known as the black reef leatherjacket, it has a distinctive black marking behind its eye",NA
+"Aploactisoma milesii",TRUE,NA,"Known as the velvetfish, this species is endemic to southern Australia",NA
+"Aulotrachichthys novaezelandicus",FALSE,"Primarily found in New Zealand waters","This species is also known as the New Zealand roughy","Aulotrachichthys pulsator, Optivus elongatus"
+"Ophiclinops pardalis",TRUE,NA,"A small, bottom-dwelling fish known as the leopard snake blenny",NA
+"Scolecenchelys breviceps",TRUE,NA,"Also called the shorthead worm eel, it's a burrowing species",NA
+"Vanacampus poecilolaemus",TRUE,NA,"This pipefish species is known for its long, thin body and is endemic to southern Australia",NA
+"Aptychotrema vincentiana",TRUE,NA,"Known as the western shovelnose ray, it's endemic to southern Australia and listed as Vulnerable",NA
+"Pseudophycis barbata",TRUE,NA,"Commonly called the southern bastard codling, it's important in commercial fisheries",NA
+"Hyperoglyphe antarctica",TRUE,NA,"Known as the blue-eye trevalla, it's a valuable commercial species",NA
+"Hippocampus breviceps",TRUE,NA,"This short-headed seahorse is listed as Vulnerable due to habitat loss and collection for traditional medicine",NA
+"Scobinichthys granulatus",TRUE,NA,"Known as the rough leatherjacket, it has a unique texture to its skin",NA
+"Scarus psittacus",FALSE,"Typically found in the Indo-Pacific, not South-Western Australia","Known as the common parrotfish, important for coral reef ecosystems","Scarus ghobban, Scarus frenatus, Scarus rivulatus"
+"Eubalichthys mosaicus",TRUE,NA,"Also known as the mosaic leatherjacket, endemic to southern Australia",NA
+"Caprodon schlegelii",FALSE,"Found in the northwestern Pacific, particularly around Japan","Known as the purple anthias or Schlegeli's seaperch","Caprodon longimanus"
+"Meuschenia scaber",TRUE,NA,"Known as the velvet leatherjacket, common in southern Australian waters",NA
+"Sutorectus tentaculatus",TRUE,NA,"Also called the cobbler wobbegong, a carpet shark species endemic to Australia",NA
+"Gobiodon prolixus",FALSE,"Typically found in the western Pacific, particularly around coral reefs","A small coral-dwelling goby species","Gobiodon quinquestrigatus, Gobiodon histrio"
+"Alabes scotti",TRUE,NA,"A clingfish species endemic to southern Australia, rarely seen due to its small size and cryptic nature",NA
+"Lampadena speculigera",FALSE,"Typically found in deeper waters of tropical and temperate oceans worldwide","A lanternfish species, known for its bioluminescent capabilities","Lampadena luminosa, Myctophum punctatum"
+"Iso rhothophilus",TRUE,NA,"Known as the blue sprat, found in coastal waters of southern Australia",NA
+"Heteroclinus eckloniae",TRUE,NA,"A clinid fish species endemic to southern Australia, often associated with kelp habitats",NA
+"Kanekonia queenslandica",FALSE,"Typically found in northern Australia, particularly Queensland","A rare species of frogfish, known as the Queensland paperfish",NA
+"Heteroclinus kuiteri",TRUE,NA,"An endemic Australian clinid fish species, named after Australian ichthyologist Rudie Kuiter",NA
+"Stethojulis trilineata",TRUE,NA,"A species of wrasse, also known as the three-lined rainbowfish",NA
+"Sardinops sagax",TRUE,NA,"Australian pilchard, an important commercial fish species","NA"
+"Vincentia badia",TRUE,NA,"A species of cardinalfish endemic to southern Australia",NA
+"Caesio cuning",FALSE,"Typically found in tropical Indo-Pacific regions, not in temperate waters of SW Western Australia","Also known as the red-bellied fusilier","Caesioperca rasor, Caesioperca lepidoptera"
+"Cristiceps aurantiacus",TRUE,NA,"Yellow crested weedfish, a species of clinid endemic to southern Australia",NA
+"Stethojulis strigiventer",FALSE,"Found in tropical Indo-Pacific waters, not typically in SW Western Australia","Also known as the three-ribbon wrasse","Stethojulis bandanensis, Stethojulis interrupta"
+"Cephalopholis argus",FALSE,"Typically found in tropical coral reefs, not in temperate SW Western Australia","Known as the peacock grouper or peacock hind, it can be ciguatoxic","Epinephelus rivulatus, Epinephelus armatus"
+"Lutjanus decussatus",FALSE,"Found in tropical Indo-Pacific waters, not typically in SW Western Australia","Also known as the checkered snapper","Lutjanus argentimaculatus, Lutjanus russellii"
+"Aetapcus maculatus",TRUE,NA,"Also known as the warty prowfish, this species is endemic to southern Australia",NA
+"Girella tricuspidata",TRUE,NA,"Known as luderick or blackfish, it's popular for both commercial and recreational fishing",NA
+"Parupeneus biaculeatus",FALSE,"Found in the Indo-Pacific region, but not typically in southwestern Western Australia","This goatfish species is known for its ability to change colors rapidly","Parupeneus spilurus, Upeneichthys vlamingii"
+"Girella nigricans",FALSE,"Native to the eastern Pacific Ocean, particularly California and Mexico","Also known as the opaleye, it's not found in Australian waters","Girella zebra, Girella tephraeops"
+"Lutjanus vitta",FALSE,"Typically found in the Indo-Pacific region, but not common in southwestern Western Australia","Known as the brownstripe snapper, it's an important commercial species","Lutjanus carponotatus, Lutjanus russellii"
+"Sticharium dorsale",TRUE,NA,"This blenny species is endemic to southern Australia",NA
+"Scarus schlegeli",FALSE,"Found in the western Pacific, but not typically in southwestern Western Australia","Known as the yellowband parrotfish, it plays a crucial role in coral reef ecosystems","Scarus ghobban, Scarus frenatus"
+"Hyperlophus vittatus",TRUE,NA,"Known as the sandy sprat, it's an important food source for larger predators",NA
+"Gymnothorax undulatus",FALSE,"Widespread in Indo-Pacific and eastern Pacific, but not common in southwestern Western Australia","Known as the undulated moray, it can reach up to 2 meters in length","Gymnothorax woodwardi, Gymnothorax prasinus"
+"Lagocephalus lagocephalus",TRUE,NA,"Known as the oceanic puffer, it's highly toxic if consumed",NA
