@@ -1,22 +1,6 @@
 # Use Claude to curate Species sightings list
 
-This script takes a file with species-level sightings as produced by the OceanOmics amplicon pipeline, a user-supplied area of sampling such as "Cocos-Keeling Islands" or "South-Western Western Australia", and asks Claude whether the species found are expected in the area. Useful as a data-point in curation of eDNA results.
-
-# Installation
-
-This script depends on a fairly recent Python and the anthropic Python package.
-
-There's a prepared conda environment in `anthropic.yml` that you can use to get conda to install everything:
-
-```bash
-conda env create -f anthropic.yml
-```
-
-You need a .env file in the working directory with your Anthropic API key. It should look like this:
-
-```bash
-ANTHROPIC_API_KEY=blablabla
-```
+This script takes a file with species-level sightings, a user-supplied area of sampling such as "Cocos-Keeling Islands" or "South-Western Western Australia", and asks Claude whether the species found are expected in the area. We use these predictions as a data-point in curation of eDNA results, along with AquaMaps probabilities, OBIS sightings, and other external data-points.
 
 # Usage
 
@@ -81,6 +65,24 @@ The columns are:
 
 There is example output in `claude_commented.csv`.
 
+
+# Installation
+
+This script depends on a fairly recent Python and the anthropic Python package.
+
+There's a prepared conda environment in `anthropic.yml` that you can use to get conda to install everything:
+
+```bash
+conda env create -f anthropic.yml
+```
+
+You need a .env file in the working directory with your Anthropic API key. It should look like this:
+
+```bash
+ANTHROPIC_API_KEY=blablabla
+```
+
+
 # API usage
 
 The example file contains 224 unique species.
@@ -89,15 +91,13 @@ According to the Anthropic log, a run of the curate.py script uses 12,918 input 
 
 # How accurate is this?
 
-That is a good question.
+Here are results from a preliminary analysis with 12S_Miya/16S_Berry eDNA samples from around South-Western Western Australia. For each sample latitude/longitude and 'species' sighting, we pulled out the Aquamaps probability for that location and species. 
 
-I did a preliminary analysis with 12S_Miya/16S_Berry eDNA samples from around South-Western Western Australia. For each sample latitude/longitude and 'species' sighting, we pulled out the Aquamaps probability for that location and species. 
-
-Here's a plot comparing Claude's TRUE/FALSE with Aquamaps probabilities:
+Here's a plot comparing Claude's TRUE/FALSE (TRUE = expected in the area, FALSE = not expected) with AquaMaps probabilities:
 
 ![image](https://github.com/user-attachments/assets/64568307-0862-4c40-a4a6-934e3f7eb244)
 
-As you can see, the average/median Aquamaps probability for sightings with which Claude disagrees is 0. The median for Claude's agreed-upon sightings is 0.76. You can see some 'leftovers' where Claude disagrees with Aquamaps. These are *Pseudophycis breviuscula*, *Repomucenus calcaratus*, *Zebrias scalaris*, *Anoplogaster cornuta*, *Parapriacanthus elongatus*, *Caprodon schlegelii*, and *Lampadena speculigera*. Some of these, like *Lampadena speculigera*, are deep sea fish, but these are not impossible species. There's always room for improvement!
+As you can see, the average/median Aquamaps probability for sightings with which Claude disagrees is 0. The median for Claude's agreed-upon sightings is 0.76. You can see some 'leftovers' where Claude disagrees with Aquamaps. These are *Pseudophycis breviuscula*, *Repomucenus calcaratus*, *Zebrias scalaris*, *Anoplogaster cornuta*, *Parapriacanthus elongatus*, *Caprodon schlegelii*, and *Lampadena speculigera*. Some of these, like *Lampadena speculigera*, are deep sea fish, but these are not impossible species. I expect hta these species appear less frequently in Claude's training data. There's always room for improvement via fine-tuning!
 
 We can also look at this from a higher level - we asked Fishbase whether these species are endemic/native or not to Australia (not just South-Western Australia).
 
@@ -108,10 +108,10 @@ As you can see, 66% and 64% of the non-endemic species in 12S and 16S are labele
 # CAVEATS
 
 - This is an LLM, **it lies**. It's hard to tell when it lies. Always use other data sources for curation - never trust the system blindly.
-- The list of alternative species is far shorter than it should be; lots of missing species. Sometimes it reports more, sometimes it reports fewer species when you rerun it.
+- The list of alternative species is far shorter than it should be; lots of missing species. Sometimes it reports more, sometimes it reports fewer species when you rerun it. On average it reports two to three species.
 - Rerunning can be a good idea - answers outside of the `In area?` question are somewhat random.
 - The model "claude-3-5-sonnet-20240620" is hard-coded, have not really evaluated others. Some preliminary tests with Opus led to mostly identical results.
 - Sometimes what the API returns is truncated. The script tries to detect these cases and should print something like "Warning: Response for species a, b, c might be truncated", but there is no guarantee that this works correctly.
 - Once in a while, the csv line is broken. Here's an example: *"Vinciguerria lucetia",FALSE,"Found in tropical and subtropical waters of the Atlantic, Pacific, and Indian Oceans, but not typically near Australia","This species is a bioluminescent fish, often called the Panama lightfish",Vinciguerria nimbaria,Vinciguerria poweriae,Vinciguerria attenuata,Ichthyococcus ovatus,Pollichthys mauli"*. Can you see the missing " in front of Vinciguerria? That has to be added manually.
-- Very little work has gone into optimising token usage. There is no prompt caching.
+- Very little work has gone into optimising token usage. For starters, there is no prompt caching.
 - Claude is instructed to return 'NA' when it is unsure whether a species is supposed to be present in an area. I have not seen it do that yet - 100% of my cases return TRUE or FALSE so far.
