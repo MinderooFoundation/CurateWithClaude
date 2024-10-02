@@ -58,11 +58,11 @@ Raw:
 
 The columns are:
 
-	1. The supplied species,
-	2. TRUE if Claude thinks it's in the area and FALSE if not,
-	3. If the species is not in the area, some explanation, otherwise NA
-	4. A 'fun fact' about the species 
-	5. if the species is not in the area, a list of alternative closely related species that could be, otherwise NA
+1. The supplied species,
+2. TRUE if Claude thinks it's in the area and FALSE if not,
+3. If the species is not in the area, some explanation, otherwise NA
+4. A 'fun fact' about the species 
+5. if the species is not in the area, a list of alternative closely related species that could be, otherwise NA
 
 There is example output in `claude_commented.csv`.
 
