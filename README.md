@@ -106,9 +106,11 @@ We can also look at this from a higher level - we asked Fishbase whether these s
 
 As you can see, 66% and 64% of the non-endemic species in 12S and 16S are labeled as FALSE by Claude. About 22% of endemic species are labeled as FALSE by Claude, but Claude evaluates on the area (South-Western Western Australia), not all of Australia. 
 
+So far it has a 100% success rate with finding *very* wrong species, i.e., European freshwater fish in Australian marine samples.
+
 # CAVEATS
 
-- This is an LLM, **it lies**. It's hard to tell when it lies. Always use other data sources for curation - never trust the system blindly.
+- This is an LLM, **it lies**. It's hard to tell when it lies because it does not know when it lies. Always use other data sources for curation - never trust the system blindly.
 - The list of alternative species is far shorter than it should be; lots of missing species. Sometimes it reports more, sometimes it reports fewer species when you rerun it. On average it reports two to three species.
 - Rerunning can be a good idea - answers outside of the `In area?` question are somewhat random.
 - The model "claude-3-5-sonnet-20240620" is hard-coded, have not really evaluated others. Some preliminary tests with Opus led to mostly identical results.
