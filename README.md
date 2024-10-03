@@ -95,7 +95,7 @@ According to the Anthropic log, a run of the curate.py script uses 12,918 input 
 
 Here are results from a preliminary analysis with 12S_Miya/16S_Berry eDNA samples from around South-Western Western Australia. For each sample latitude/longitude and 'species' sighting, we pulled out the Aquamaps probability for that location and species. 
 
-Here's a plot comparing Claude's TRUE/FALSE (TRUE = expected in the area, FALSE = not expected) with AquaMaps probabilities:
+Here's a plot comparing Claude's TRUE/FALSE (TRUE = expected in the area, FALSE = not expected) with AquaMaps probabilities. Each dot is one species sighting in South-Western Western Australia, comparing that species' AquaMaps score for a SWWA latitude/longitude, and whteher Claude thinks it's in the area (TRUE) or not (FALSE).
 
 ![image](https://github.com/user-attachments/assets/64568307-0862-4c40-a4a6-934e3f7eb244)
 
@@ -105,7 +105,7 @@ We can also look at this from a higher level - we asked Fishbase whether these s
 
 ![image](https://github.com/user-attachments/assets/e1dbffda-01b6-481a-ae86-7eaefe059509)
 
-As you can see, 66% and 64% of the non-endemic species in 12S and 16S are labeled as FALSE by Claude. About 22% of endemic species are labeled as FALSE by Claude, but Claude evaluates on the area (South-Western Western Australia), not all of Australia. 
+Here, 66% and 64% of the non-endemic species in 12S and 16S are labeled as FALSE by Claude. About 22% of endemic species are labeled as FALSE by Claude, but Claude evaluates on the area (South-Western Western Australia), not all of Australia. 
 
 So far it has a 100% success rate with finding *very* wrong species, i.e., European freshwater fish in Australian marine samples. But you don't need 500 GPUs and Liechtenstein's energy consumption to tell you that.
 
