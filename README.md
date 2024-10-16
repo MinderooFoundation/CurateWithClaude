@@ -1,4 +1,4 @@
-# Use Claude to curate Species sightings list
+# Use Claude to curate species sightings list
 
 This script takes a file with species-level sightings, a user-supplied area of sampling such as "Cocos-Keeling Islands" or "South-Western Western Australia", and asks Claude whether the species found are expected in the area. We use these predictions as a data-point in curation of eDNA results, along with AquaMaps probabilities, OBIS sightings, and other external data-points.
 
